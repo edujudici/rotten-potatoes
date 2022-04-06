@@ -1,4 +1,4 @@
-# rotten-potatoes
+# Rotten Potatoes
 Projeto desenvolvido durante a iniciativa Kubernetes com Fabricio Veronez
 
 ## Criação do cluster com k3d
@@ -34,3 +34,10 @@ $ kubectl apply -f deployment.yaml
 
 ## Como acessar
  - Abrir projeto: [localhost:8080](http://localhost:8080)
+
+<br>  
+<br>  
+<hr>
+
+# CICD Github Action
+O projeto possui a configuração de deploy com CI/CD em um Cluster, porém necessita das configurações dos SECRETS para conectar, veja mais no vídeo "INCIATIVA KUBERNETES - Aula 3 - Gere valor em uma pipeline CICD"
